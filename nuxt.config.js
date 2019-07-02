@@ -55,7 +55,8 @@ export default {
     }
   },
   env:{
-    baseUrl:process.env.BASE_URL || 'https://blog-tuto.firebaseio.com'
+    baseUrl:process.env.BASE_URL || 'https://blog-tuto.firebaseio.com',
+    firebAPIKey:'AIzaSyDLmxlE2ZYmX3v32pSoLjWZRza6pL-ZLSo'
   },
   transition:{
     name:'fade',
